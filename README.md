@@ -14,6 +14,10 @@ Have a Raspberry Pi connected to a TV by composite video.
 It doesn't matter if you are running X or not. Dispmanx will draw over
 anything else.
 
+
+
+Derail
+
 Here is how for RPI 1-3: https://www.raspberrypi.org/forums/viewtopic.php?t=165943
 ```
 Dear Ceci123,
@@ -51,6 +55,10 @@ matteopio
 
 https://bhavyanshu.me/tutorials/force-raspberry-pi-output-to-composite-video-instead-of-hdmi/03/03/2014
 http://www.instructables.com/id/Raspberry-Pi-2-Quick-n-Easy-RCA/
+
+Derail done
+
+
 
 Build the programs:
 
