@@ -42,11 +42,15 @@ of it, or comment it like this: #hdmi_force_hotplug=1.
 
 And you are done!
 Hope this helps you!
-Some info from this was forked from (https://bhavyanshu.me/tutorials/force-raspberry-pi-output-to-composite-video-instead-of-hdmi/03/03/2014) and (http://www.instructables.com/id/Raspberry-Pi-2-Quick-n-Easy-RCA/). Disclaimer: I don't own these articles, therefore give credit to the original authors.
+Some info from this was forked from ( Link #1 below ) and ( Link #1 below. ) Disclaimer:
+I don't own these articles, therefore give credit to the original authors.
 Thank you so much!
 Hope you appreciate it,
 matteopio
 ```
+
+https://bhavyanshu.me/tutorials/force-raspberry-pi-output-to-composite-video-instead-of-hdmi/03/03/2014
+http://www.instructables.com/id/Raspberry-Pi-2-Quick-n-Easy-RCA/
 
 Build the programs:
 
