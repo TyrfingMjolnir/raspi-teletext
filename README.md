@@ -14,6 +14,8 @@ Have a Raspberry Pi connected to a TV by composite video.
 It doesn't matter if you are running X or not. Dispmanx will draw over
 anything else.
 
+Here is how for RPI 1-3: https://www.raspberrypi.org/forums/viewtopic.php?t=165943
+
 Build the programs:
 
     make
