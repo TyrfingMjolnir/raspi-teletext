@@ -15,6 +15,33 @@ It doesn't matter if you are running X or not. Dispmanx will draw over
 anything else.
 
 Here is how for RPI 1-3: https://www.raspberrypi.org/forums/viewtopic.php?t=165943
+```
+Dear Ceci123,
+The Raspberry Pi Model B+ and up, including the Raspberry Pi 3 , all have the RCA jack unified with the 3.5 mm audio jack, you'll need a hybrid cable which has all three of the RCA output jacks, (yellow, white and red).
+
+After connecting it to a TV (CRT), you'll notice that it isn't enough, so you'll need to tweak it by editing the config.txt. There are three things you need to modify.
+
+1. #sdtv_mode=0
+Search for that line in /boot/config.txt. Remove the hash symbol (uncomment it) and change the 0 after the = symbol to what your CRT TV's mode is from this list.
+
+sdtv_mode=0 Normal NTSC
+sdtv_mode=1 Japanese version of NTSC – no pedestal
+sdtv_mode=2 Normal PAL
+sdtv_mode=3 Brazilian version of PAL – 525/60 rather than 625/50, different subcarrier
+
+2. hdmi_ignore_hotplug=1
+Add the line in the brackets here (hdmi_ignore_hotplug=1) to the bottom of /boot/config.txt
+
+3.hdmi_force_hotplug=1
+Search for that line in /boot/config.txt . What you've got to do is to add a hash symbol in front of it, or comment it like this: #hdmi_force_hotplug=1.
+
+And you are done!
+Hope this helps you!
+Some info from this was forked from (https://bhavyanshu.me/tutorials/force-raspberry-pi-output-to-composite-video-instead-of-hdmi/03/03/2014) and (http://www.instructables.com/id/Raspberry-Pi-2-Quick-n-Easy-RCA/). Disclaimer: I don't own these articles, therefore give credit to the original authors.
+Thank you so much!
+Hope you appreciate it,
+matteopio
+```
 
 Build the programs:
 
